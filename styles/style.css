@@ -167,3 +167,28 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+
+#sec-heading {
+  text-align: center;
+}
+
+#first-product {
+  width: 25%;
+  min-width: 200px;
+  padding: 8px 10px;
+  border: 2px solid gainsboro;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0px;
+  transition: 0.3s ease;
+}
+
+#first-product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.pro-des {
+  text-align: center;
+}
